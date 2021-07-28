@@ -1,0 +1,50 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    font-Family: helvetica;
+    background-image: url("lunch.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #eb3456;
+    padding: 25px 175px;
+    background-color: rgba(21, 12, 5, 0.43);
+   
+
+}
+ 
+.lunch {
+    margin: 0 auto;
+    font-size: 4rem;
+    color: white;
+    font-weight: normal;
+    padding-bottom: 25px;
+    z-index: 900;
+}
+
+.btn {
+    width: 125px;
+    height: 35px;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    padding-top: 50px;
+    max-width: 225px;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    color: white;
+}
