@@ -17,9 +17,7 @@ var lunchItem = [
    
 function lunchGenerator() {
    lunchItem.sort(function(a, b){return 0.5 - Math.random()});
-   var lunchItemParagraph = document.createElement('p');
-   mainPage.appendChild(lunchItemParagraph);
-   var lunchItemText = document.createTextNode(lunchItem[0]);
-   lunchItemParagraph.appendChild(lunchItemText);
+   var lunchItemParagraph = document.getElementById('replace');
+   lunchItemParagraph.innerHTML = (lunchItem[0]);
 };
 
